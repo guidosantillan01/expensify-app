@@ -11,12 +11,12 @@ exports[`should render ExpenseListItem correctly 1`] = `
     </h3>
   </Link>
   <p>
-    Amount: $
-    4500
+    Amount: 
+    $45.00
   </p>
   <p>
     Created at: 
-    -345600000
+    December 27th, 1969
   </p>
   <button
     onClick={[Function]}
