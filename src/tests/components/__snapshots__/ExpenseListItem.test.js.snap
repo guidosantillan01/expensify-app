@@ -1,27 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render ExpenseListItem correctly 1`] = `
-<div>
-  <Link
-    replace={false}
-    to="/edit/2"
-  >
-    <h3>
+<Link
+  className="list-item"
+  replace={false}
+  to="/edit/2"
+>
+  <div>
+    <h3
+      className="list-item__title"
+    >
       Rent
     </h3>
-  </Link>
-  <p>
-    Amount: 
-    $45.00
-  </p>
-  <p>
-    Created at: 
-    December 27th, 1969
-  </p>
-  <button
-    onClick={[Function]}
+    <span
+      className="list-item__subtitle"
+    >
+      December 27th, 1969
+    </span>
+  </div>
+  <h3
+    className="list-item__data"
   >
-    Remove
-  </button>
-</div>
+    $45.00
+  </h3>
+  <div>
+    <button
+      className="button button--secondary"
+      onClick={[Function]}
+    >
+      x
+    </button>
+  </div>
+</Link>
 `;
